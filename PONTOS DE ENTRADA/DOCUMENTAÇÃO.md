@@ -27,18 +27,17 @@
 - Este PE deve ser uma User Function e ter como nome o ID do Modelo de Dados (Model) do Fonte.
 - O PE criado recebe via parâmetro (PARAMIXB) um vetor com informações referentes ao fonte. Estes parâmetros variam para cada situação, mas todos eles tem os 3 primeiros elementos em comum.
 - O ponto de entrada é chamado em vários momentos dentro do fonte,na 2a posição do vetor é passado um ID que identifica qual é este momento.Ela pode ter como conteúdo:
-<div align="center" >
-  <p>■ MODELPRE <br>
-  ■ MODELPOS <br>
-  ■ FORMPRE <br>
-  ■ FORMPOS <br>
-  ■ FORMLINEPRE <br>
-  ■ FORMLINEPOS <br>
-  ■ MODELCOMMITTTS <br>
-  ■ MODELCOMMITNTTS <br>
-  ■ MODELCOMMITTTSPRE <br>
-  ■ MODELCOMMITTTSPOS <br>
-  ■ MODELCANCEL <br>
-  ■ BUTTONBAR <br>
-  ■ MODELVLDACTIVE</p>
-</div>
+
+- ■ MODELPRE 
+- ■ MODELPOS 
+- ■ FORMPRE 
+- ■ FORMPOS 
+- ■ FORMLINEPRE 
+- ■ FORMLINEPOS 
+- ■ MODELCOMMITTTS 
+- ■ MODELCOMMITNTTS 
+- ■ MODELCOMMITTTSPRE 
+- ■ MODELCOMMITTTSPOS 
+- ■ MODELCANCEL 
+- ■ BUTTONBAR 
+- ■ MODELVLDACTIVE
