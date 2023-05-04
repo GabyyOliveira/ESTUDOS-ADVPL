@@ -4,9 +4,9 @@
 
 #Índice
 
-*[Importações](#Importações) - Importações necessárias para as consultas
-*[Generica](#Generica) - Consulta genérica 
-*[SQL](#SQL) - Consulta utilizando o SQL
+* [Importações](#Importações) - Importações necessárias para as consultas
+* [Generica](#Generica) - Consulta genérica 
+* [SQL](#SQL) - Consulta utilizando o SQL
 
 
 
