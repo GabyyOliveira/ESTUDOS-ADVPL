@@ -26,3 +26,7 @@
   <div align="center">
     <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/CONSULTAS%20BD/imgs/sql.png">
  </div>
+ 
+ # Dicas 
+    * - Sempre utilizar a função RetSqlName() para pegar o nome da tabela 
+    * - Sempre utilizar o DbGoTop() 
