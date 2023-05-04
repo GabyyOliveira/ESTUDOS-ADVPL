@@ -18,24 +18,9 @@ ESTUDOS ADVPL - ARRAY
 
 # AADD
 
-#INCLUDE 'TOTVS.CH'
-
-
-User Function ArrayTestes()
-    
-    Local aNumeros := {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
-    Local aLetras  := {'Natan', 'Tiagaum', 'Ste', 'Dani', 'Giu', 'Ighor'}
-    Local nCont    := 0
-
-    FwAlertInfo(STR(aNumeros[2])) //! Print do segundo valor do array, ou seja, "9"
-
-    FwAlertInfo(aLetras[1]) //! Print do primeiro valor do array, ou seja, "Natan"
-
-    For nCont := 1 to LEN(aLetras)
-        FwAlertInfo(ALLTRIM(aLetras[nCont]) + ' e ' + ALLTRIM(STR(aNumeros[nCont]))) //! Print dos nomes e números 
-    Next
-
-Return
+<div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/Aadd.png">
+ </div>
 
 # AClone
 
