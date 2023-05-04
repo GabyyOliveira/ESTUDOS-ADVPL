@@ -47,5 +47,9 @@
 > Pontos de entrada em MVC
 - https://tdn.totvs.com/pages/releaseview.action?pageId=208345968
 - https://centraldeatendimento.totvs.com/hc/pt-br/articles/360025996033-Cross-Segmento-TOTVS-Backoffice-Linha-Protheus-ADVPL-Pontos-de-entrada-MVC
-    
+
+> Videos Utilizando os pontos de entrada
+- https://www.youtube.com/watch?v=AW2hIrR5YwA
+- https://www.youtube.com/watch?v=zllJDc6F9Ic
+
             
