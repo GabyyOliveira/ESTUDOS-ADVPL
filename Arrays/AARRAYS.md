@@ -39,30 +39,13 @@ Return
 
 # AClone
 
-#INCLUDE 'TOTVS.CH'
-
-User Function ArrayAClone()
-    
-    //! FUNÇÃO AClone  - Duplica um array (estrutura e elementos).
-
-    Local aArmazena := {'Natan', 'Tiagaum', 'Ste', 'Dani', 'Giu', 'Ighor'}    
-    Local aRecebe   := {}
-    Local cMsg      := ''
-    Local nCont     := 0
-
-    aRecebe := AClone(aArmazena)
-
-    For nCont := 1 to LEN(aArmazena)
-        cMsg+=('Array Armazena: '+ CRLF + (aArmazena[nCont]) + CRLF + CRLF + 'Array Recebe: ' + CRLF + (aRecebe[nCont]))  + CRLF + CRLF //! Resultado: 2, o nome 'Tiagaum' aparece duas vezes no array
-    Next
-
-    FwAlertInfo(cMsg) //! Print dos nomes 
-
-Return
+<div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/AClone.png">
+ </div>
 
 # ACopy
  <div align="center">
-    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/AClone.png">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/ACopy.png">
  </div>
 
 # ADel
