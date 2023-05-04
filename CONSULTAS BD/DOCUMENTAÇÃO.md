@@ -9,5 +9,9 @@
 * [SQL](#SQL) - Consulta utilizando o SQL
 * [Dicas](#Dicas) - Dicas importantes
 
+#Importações
 
+ <div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/CONSULTAS%20BD/imgs/importações.png">
+ </div>
 
