@@ -41,3 +41,10 @@
 - ■ MODELCANCEL 
 - ■ BUTTONBAR 
 - ■ MODELVLDACTIVE
+
+# Links
+
+> Pontos de entrada em MVC
+- https://tdn.totvs.com/pages/releaseview.action?pageId=208345968
+    
+            
