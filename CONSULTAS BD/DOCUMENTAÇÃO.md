@@ -2,16 +2,27 @@
   CONSULTAS AO BANCO DE DADOS
 </H1>
 
-#Índice
+# Índice
 
 * [Importações](#Importações) - Importações necessárias para as consultas
 * [Generica](#Generica) - Consulta genérica 
 * [SQL](#SQL) - Consulta utilizando o SQL
 * [Dicas](#Dicas) - Dicas importantes
 
-#Importações
+# Importações
 
  <div align="center">
     <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/CONSULTAS%20BD/imgs/importações.png">
  </div>
 
+# Generica
+
+  <div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/CONSULTAS%20BD/imgs/generica.png">
+ </div>
+ 
+ # SQL 
+ 
+  <div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/CONSULTAS%20BD/imgs/sql.png">
+ </div>
