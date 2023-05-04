@@ -29,5 +29,5 @@
  
  # Dicas 
  
-    *  Sempre utilizar a função RetSqlName() para pegar o nome da tabela 
-    * Sempre utilizar o DbGoTop() 
+    - Sempre utilizar a função RetSqlName() para pegar o nome da tabela 
+    - Sempre utilizar o DbGoTop() 
