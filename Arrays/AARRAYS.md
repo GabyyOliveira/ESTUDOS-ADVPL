@@ -14,11 +14,12 @@ ESTUDOS ADVPL - ARRAY
 * [ASort](#ASort) - Coloca em ordem tudo ou parte de um array.
 * [ASize](#ASize) - Aumenta ou diminui um array a um tamanho especificado.
 * [ATail](#ATail) - Retorna o último elemento do array.
-* [Testes](#Testes) - Testes realizados com arrays.
+
 
 # AADD
 
 #INCLUDE 'TOTVS.CH'
+
 
 User Function ArrayTestes()
     
@@ -209,89 +210,3 @@ User Function ArrayATail()
 Return
 
 
-# Testes
-
-#INCLUDE 'TOTVS.CH'
-
-User Function MBid_EX1()
-    
-    Local aC    := {}
-    Local nCont := 0
-    Local cMsg  := 'PRINT DO ARRAY 3,1 ' + CRLF + CRLF
-        
-    //! Este array foi definido com 3 linhas e apenas uma coluna. aC é um array 3,1
-    //*                 IMPRESSÃO
-    AADD(aC, 1)    //*    | 1 |              
-    AADD(aC, 9)    //*    | 9 | 
-    AADD(aC, 3)    //*    | 3 | 
-    
-
-    For nCont := 1 to LEN(aC)
-        cMsg += (STR(aC[nCont])) + CRLF
-    Next
-
-    FwAlertInfo(cMsg)
-
-Return
-
-#INCLUDE 'TOTVS.CH'
-
-User Function MatrizBidimensional()
-    
-    Local aB := ARRAY(4,3)
-    Local nCont          := 0, nCont2 := 0, nI := 0
-    Local cMsg           := ''
-
-    //! Este array foi definido com 4 linhas e 3 COLUNAS. aB é um array 4,3
-    //*                          IMPRESSÃO    
-    aB[1][1] := 10    //*    | 10   20   40 |
-    aB[1][2] := 20    //*    | 15   35   42 | 
-    aB[1][3] := 40    //*    | 53   25   37 | 
-    aB[2][1] := 15    //*    | 12   91   33 |
-    aB[2][2] := 35
-    aB[2][3] := 42
-    aB[3][1] := 53
-    aB[3][2] := 25
-    aB[3][3] := 37
-    aB[4][1] := 12
-    aB[4][2] := 91
-    aB[4][3] := 33
-
-    For nCont := 1 to 4
-        For nCont2 := 1 to 3
-            cMsg+=(STR(aB[nCont][nCont2]))
-            nI ++       //! Para printar as 3 colunas e 4 linhas
-            if nI == 3
-                cMsg+= CRLF + CRLF
-                nI:= 0
-            endif
-        Next
-    Next
-
-    FwAlertInfo(cMsg)
-
-Return
-
-#INCLUDE 'TOTVS.CH'
-
-User Function MatrizMultidimensional()
-    
-    Local aDados := {}
-    Local nCont  := 0 
-
-    //* INDICES      1        2      3             4    
-    AADD(aDados, {'Natan',   24,'13/06/1998', 'São Paulo'})
-    AADD(aDados, {'Tiagaum', 18,'25/12/2005', 'Araras'})
-    AADD(aDados, {'Dani',    40,'06/01/1983', 'Disney'})
-    AADD(aDados, {'Ste',     22,'16/05/2001', 'Limeira'})
-    AADD(aDados, {'Ighor',   18,'13/06/2005', 'São Paulo'})
-    AADD(aDados, {'Giu',     59,'06/02/1964', 'São Paulo'})
-
-    For nCont := 1 to LEN(aDados)
-
-        FwAlertInfo('NOME: '       + aDados[nCont, 1] + CRLF +;
-                    'IDADE: '      + STR(aDados[nCont, 2]) + CRLF +;
-                    'NASCIMENTO: ' + aDados[nCont, 3] + CRLF +;
-                    'CIDADE: '     + aDados[nCont, 4] )
-    Next
-Return
