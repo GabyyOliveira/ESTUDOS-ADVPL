@@ -50,129 +50,40 @@ Return
 
 # ADel
 
-#INCLUDE 'TOTVS.CH'
-
-User Function ArrayADel()
-    
-    //! FUNÇÃO ADel - Elimina um elemento do array e "arrasta" os demais para trás tornando nulo o último elemento.
-
-    Local aNumeros := {10, 9, 8, 7, 5}
-    Local cMsg     := ''
-    Local nCont    := 0
-
-
-    ADel(aNumeros, 3) //!O número 8 (que está na terceira posição) é eliminado
-
-    for nCont:= 1 to LEN(aNumeros)
-        cMsg += "aNumeros ["+cValToChar(nCont)+"] = " + cValToChar(aNumeros[nCont]) + CRLF
-    next
-
-    FwAlertInfo(cMsg) 
-
-Return
+<div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/ADel.png">
+ </div>
 
 # ASize
 
-#INCLUDE 'TOTVS.CH'
-
-User Function ArrayAFillASize()
-    
-    //! FUNÇÃO AFill   - Preenche um array com um único valor de qualquer tipo de dados (inclusive array´s, blocos de código ou nulo) na faixa especificada.
-    //! FUNÇÃO ASize   - Aumenta ou diminui um array a um tamanho especificado
-
-    Local aArmazena := {}
-    Local cMsg     := ''
-    Local nCont    := 0
-
-    ASize(aArmazena, 8 )
-    AFill(aArmazena, "TESTE")
-    AFill(aArmazena, "OK", 2, 6) //! IMPRIMIRÁ TESTE NA PRIMEIRA E ÚLTIMA POSIÇÃO (2X) E OK (6X) ENTRE AS PALABRAS TESTE
-
-    for nCont:= 1 to LEN(aArmazena)
-        cMsg += "Exemplo ["+cValToChar(nCont)+"] = " + cValToChar(aArmazena[nCont]) + CRLF
-    next
-
-    FwAlertInfo(cMsg) 
-
-Return
+<div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/Afill.png">
+ </div>
 
 # AIns
 
-#INCLUDE 'TOTVS.CH'
-
-User Function ArrayAIns()
-    
-    ///! AIns - Inclui um elemento nulo na posição definida e 'empurra' os demais para frente descartando o último elemento.
-
-    Local aArmazena := { 1, 2, { 11, 22, 33 }, 4, 5 }
-    Local cMsg      := ''
-    Local nCont     := 0
-
-    AIns(aArmazena[3], 2 )
-    AIns(aArmazena, 2 )
-    AIns(aArmazena, 5 )
-
-    for nCont:= 1 to LEN(aArmazena)
-        cMsg += "Exemplo ["+cValToChar(nCont)+"] = " + cValToChar(aArmazena[nCont]) + CRLF
-    next
-
-    FwAlertInfo(cMsg) 
-
-Return
+<div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/AIns.png">
+ </div>
 
 
 # AScan
 
-#INCLUDE 'TOTVS.CH'
-
-User Function ArrayAscan()
-    
-    //! FUNÇÃO ASCAN
-    Local aNumeros := {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
-    Local aLetras  := {'Natan', 'Tiagaum', 'Ste', 'Dani', 'Giu', 'Ighor', 'Tiagaum'}
-
-    FwAlertInfo(STR(ASCAN(aNumeros, 7))) //! Resultado: 4, que é a posição do número 7
-
-    FwAlertInfo(STR(ASCAN(aLetras, 'Tiagaum'))) //! Resultado: 2, o nome 'Tiagaum' aparece duas vezes no array
-
-Return
-
+<div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/AScan.png">
+ </div>
+ 
 # ASort
 
-#INCLUDE 'TOTVS.CH'
-
-User Function ArrayASort()
-    
-    //! FUNÇÃO ASort   - Coloca em ordem tudo ou parte de um array.
-
-    Local aNumeros := {8,11,1,28,2,32,15,10,55}
-    Local nCont    := 0
-    Local cMsg     := ''
-
-    ASort(aNumeros)
-
-    for nCont:= 1 to LEN(aNumeros)
-        cMsg += "Exemplo ["+cValToChar(nCont)+"] = " + cValToChar(aNumeros[nCont]) + CRLF
-    next
-
-    FwAlertInfo(cMsg) 
-Return
+<div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/ASort.png">
+ </div>
 
 
 # ATail
 
-#INCLUDE 'TOTVS.CH'
-
-User Function ArrayATail()
-    
-    //! FUNÇÃO ATail   - Retorna o último elemento do array
-
-    Local aNumeros := {8,11,1,28,2,32,15,10,55}
-
-
-    ATail(aNumeros)
-
-    FwAlertInfo(STR(ATail(aNumeros))) //! IMPRIMIRÁ 55, O ÚLTIMO VALOR DO ARRAY
-Return
+<div align="center">
+    <img src="https://github.com/GabyyOliveira/ESTUDOS-ADVPL/blob/main/Arrays/imgs/ATail.png">
+ </div>
 
 
