@@ -46,5 +46,6 @@
 
 > Pontos de entrada em MVC
 - https://tdn.totvs.com/pages/releaseview.action?pageId=208345968
+- https://centraldeatendimento.totvs.com/hc/pt-br/articles/360025996033-Cross-Segmento-TOTVS-Backoffice-Linha-Protheus-ADVPL-Pontos-de-entrada-MVC
     
             
