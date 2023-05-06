@@ -18,6 +18,7 @@
 
 # Rat()
 > Retorna a posição da última ocorrência de uma expressão dentro de uma cadeia de caracteres.
+
 > Caso a expressão especificada não for encontrada dentro da cadeia de caracteres, a função RAT() retornará zero.
 ## Sintaxe
 ```bash
