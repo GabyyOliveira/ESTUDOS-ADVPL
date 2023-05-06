@@ -28,6 +28,7 @@
 - O PE criado recebe via parâmetro (PARAMIXB) um vetor com informações referentes ao fonte. Estes parâmetros variam para cada situação, mas todos eles tem os 3 primeiros elementos em comum.
 - O ponto de entrada é chamado em vários momentos dentro do fonte,na 2a posição do vetor é passado um ID que identifica qual é este momento.Ela pode ter como conteúdo:
 
+<<<<<<< HEAD
 ■ MODELPRE 
   ■ MODELPOS 
   ■ FORMPRE 
@@ -41,3 +42,30 @@
   ■ MODELCANCEL 
   ■ BUTTONBAR 
   ■ MODELVLDACTIVE
+=======
+- ■ MODELPRE 
+- ■ MODELPOS 
+- ■ FORMPRE 
+- ■ FORMPOS 
+- ■ FORMLINEPRE 
+- ■ FORMLINEPOS 
+- ■ MODELCOMMITTTS 
+- ■ MODELCOMMITNTTS 
+- ■ MODELCOMMITTTSPRE 
+- ■ MODELCOMMITTTSPOS 
+- ■ MODELCANCEL 
+- ■ BUTTONBAR 
+- ■ MODELVLDACTIVE
+
+# Links
+
+> Pontos de entrada em MVC
+- https://tdn.totvs.com/pages/releaseview.action?pageId=208345968
+- https://centraldeatendimento.totvs.com/hc/pt-br/articles/360025996033-Cross-Segmento-TOTVS-Backoffice-Linha-Protheus-ADVPL-Pontos-de-entrada-MVC
+
+> Videos Utilizando os pontos de entrada
+- https://www.youtube.com/watch?v=AW2hIrR5YwA
+- https://www.youtube.com/watch?v=zllJDc6F9Ic
+
+            
+>>>>>>> 63ef7f419b698c353efaff34a1a7db7e914a56df
